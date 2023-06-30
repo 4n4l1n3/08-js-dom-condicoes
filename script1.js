@@ -16,38 +16,38 @@ function verificar() {
             if (idade >=0 && idade < 10) {
                 //criança
                 img.setAttribute('src', 'criancaM.png')
-                document.body.style.background = rgb(81, 174, 236);
+                document.body.style.background = '#A9E2F3'
             } else if (idade < 21) {
                 //jovem
                 img.setAttribute('src', 'jovemM.png')
-                document.body.style.background = rgb(81, 174, 236);
+                document.body.style.background = '#A9E2F3'
             } else if (idade < 50) {
                 //adulto
                 img.setAttribute('src', 'adultoM.png')
-                document.body.style.background = rgb(81, 174, 236);
+                document.body.style.background = '#A9E2F3'
             } else {
                 //idoso
                 img.setAttribute('src', 'idosoM.png')
-                document.body.style.background = rgb(81, 174, 236);
+                document.body.style.background = '#A9E2F3'
             }
         } else if (fsex[1].checked) {
             gênero = 'Mulher'
             if (idade >=0 && idade < 10) {
                 //criança
                 img.setAttribute('src', 'criancaF.png')
-                document.body.style.background = rgb(224, 128, 208);
+                document.body.style.background = '#F5A9F2'
             } else if (idade < 21) {
                 //jovem
                 img.setAttribute('src', 'jovemF.png')
-                document.body.style.background = rgb(224, 128, 208);
+                document.body.style.background = '#F5A9F2'
             } else if (idade < 50) {
                 //adulto
                 img.setAttribute('src', 'adultoF.png')
-                document.body.style.background = rgb(224, 128, 208);
+                document.body.style.background = '#F5A9F2'
             } else {
                 //idoso
                 img.setAttribute('src', 'idosoF.png')
-                document.body.style.background = rgb(224, 128, 208);
+                document.body.style.background = '#F5A9F2'
             }
         }
         res.computedStyleMap.textAlign = 'center'
